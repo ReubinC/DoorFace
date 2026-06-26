@@ -14,8 +14,9 @@ flask-cors>=4.0.0
 opencv-python>=4.9.0
 mediapipe>=0.10.0
 tensorflow>=2.16.0
-face_recognition>=1.3.0
 ultralytics>=8.0.0
+# face_recognition is optional (better accuracy but requires cmake + C++ build tools)
+# Install manually if you have those: pip install face_recognition
 
 # --- Data / numerics ---
 numpy>=1.26.0
